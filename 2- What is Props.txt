@@ -1,0 +1,8 @@
+Props:
+
+- Progs stands for properties
+- Props are like HTML attributes (name ="value")
+- They can pass data from a parent component to it's child component
+- Props are immutable (not changed)
+- Similar to function parameters 
+
