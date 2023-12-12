@@ -1,0 +1,15 @@
+React Fragments : allows us to have more than just one element inside a piece of JSX syntax
+Ex: 
+<> 
+	<sapn></span>
+	<p></p>
+	<div></div>
+</>
+
+instead of any another container like (div, section)
+
+Notes: When you rendering a list you can use key with React fragments in this way
+
+<React.Fragments key="key name"> 
+	
+</React.Fragments>

@@ -1,0 +1,17 @@
+Notes : you can use JS inside component but you have to wrap the code with {}
+
+1- Conditional Rendering With && : use to return a part of component 
+Ex:{true && <p>test</b>}
+
+
+Conditional Rendering With Tirnary Operator : use to return a part of component and if the condition was false will return another thing
+Ex:{true ? <p>test</b> : <p>test2</p>}
+
+
+Conditional Rendering With  Multiple Returns : use to return a whole component (Best Case) but it types inside the function body itself like normal if condition 
+Ex: if () {
+	return ()
+} else {
+	return ()
+	}
+

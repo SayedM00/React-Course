@@ -1,0 +1,28 @@
+Notes : use can destracturing to simplefy props
+Ex :
+
+function App() {
+  return (
+    <div className="container">
+      <Header />
+      <Menu type={name} />
+      <Footer />
+    </div>
+  );
+}
+
+function Menu(props) {
+  return <div>
+    <h6>{props.type.name}</h6>
+  </div>
+}
+
+*** Destracturing way
+
+function Menu({type}) {
+  return <div>
+    <h6>{type.name}</h6>
+  </div>
+}
+
+
