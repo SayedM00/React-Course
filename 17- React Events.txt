@@ -1,0 +1,5 @@
+React Events 
+
+1- event name should write with camal case like : onClick={}
+2- can write a function inside the curly brasis
+3- can define a function outsite and just call it ((((not run it)))) like : test not test() if you do this REACT will run it automaticlay 
