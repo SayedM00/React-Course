@@ -12,3 +12,4 @@ State-Driven : REACT reacts to state changes by re-rendering the UI
 
 1- Rendering components on a webpage (UI) based on their current state.
 2- Keeping the UI in sync with state, by re-renderying (reacting) when state changes.
+3- Ression of frameworks to keep data in sync with UI.

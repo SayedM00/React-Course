@@ -1,0 +1,20 @@
+To Update State have to use setter function because it is a functional way of updating.
+
+*** useState() always return an array
+
+// Bad Practice
+state = state + 1 (X)
+
+// Good Practice
+useState(state + 1) (True )
+
+If State is object or array like:
+
+const [test, setTest] = useState({name: 'sayed'})
+
+// Do not do this 
+test.name = 'Elsayed'
+
+// Do this
+setTest({name: 'Elsayed'})
+
