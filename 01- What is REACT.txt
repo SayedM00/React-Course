@@ -1,10 +1,10 @@
 REACT : Extremely popular, Declarative, Component-based, State-Driven JavaScript library for building user interfaces, created by facebook. 
 
-Based on components: Components are the building blocks of user interfaces in React and it's use a declarative syntax called  JSX
+Based on components: Components are the building blocks of user interfaces in React and it's using a declarative syntax called  JSX
 
 Declarative : telling REACT what a component should look like, or reacts based on current data/state
 
-Declarative in normal talk : means we already have a workflow you can use your component according to this workflow.
+Declarative in normal talk : means we already have a workflow and you can use your component according to this workflow.
 
 State-Driven : REACT reacts to state changes by re-rendering the UI
 

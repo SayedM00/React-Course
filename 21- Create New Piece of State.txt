@@ -1,0 +1,8 @@
+To Create New Piece of State There are three steps : 
+
+1- We add an new state varibale.
+2- Use it in the code usually in JSX.
+3- Update the peice of state in some event handlers.
+
+*** any REACT function starts with use it called hooks.
+*** We only can call hooks like useState( on the top level of the function.

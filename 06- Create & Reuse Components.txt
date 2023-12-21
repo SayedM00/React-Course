@@ -2,6 +2,6 @@ Create Components :
 
 1- Use a Reuglar Function without parameters
 2- Function Name first letter should be capital 
-3- Return an JSX Element or Sevral JSX Elements wrapped with a JSX Element like div or an empty tag <> </>
+3- Return an JSX Element or Sevral JSX Elements wrapped with a JSX Element like an empty tag <> </> or a HTML tag
 4- To use the Component use call it inside the app component like this way <CmName />
 5- To reuse the Cm just type it's name again.

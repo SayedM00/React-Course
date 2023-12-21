@@ -19,7 +19,7 @@ function Menu(props) {
 
 *** Destracturing way
 
-function Menu({type}) {
+function Menu({type, another, ...}) {
   return <div>
     <h6>{type.name}</h6>
   </div>
