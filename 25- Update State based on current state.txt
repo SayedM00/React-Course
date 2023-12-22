@@ -1,0 +1,5 @@
+There are two ways to update State:
+
+1- Update the normal State like : setTest(test + 1)
+
+2- Update State based on current State : setTest((t) => t + 1) you take the state as a parameter and update it.
