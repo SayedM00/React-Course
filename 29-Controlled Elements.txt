@@ -1,0 +1,11 @@
+Techique of conntrolled elements basically consists of three steps :
+
+1- define a piece of state 
+2- Use that piece of state on the element that we want to control means (force the element to always take the value of this state varibale)
+3- finally update the piece of state
+
+EX :
+
+1- const [test, setTest] = useState("")
+2- <input value={test}></input>
+3- <input value={test} onChange={(e)=> setTest(e.target.value)}></input>
